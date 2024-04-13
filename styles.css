@@ -1,0 +1,106 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	padding-left: 30px;
+	padding-right: 30px;
+	color: white;
+	/* background-color: #333; */
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./dark-psd-world-map-56579.jpg");
+}
+
+header {
+	color: #fff;
+	padding: 1rem;
+}
+
+/* main {
+	background-color: #333;
+} */
+
+header h1 {
+	text-align: center;
+	margin: 0;
+}
+
+.long-text {
+	margin-bottom: 50px;
+}
+
+.ad-par {
+	display: flex;
+	justify-content: center;
+}
+
+.ad {
+	background-color: #4AAF4F;
+	border-radius: 4px;
+	color: white;
+	border: none;
+}
+
+.text-blue {
+	color: blue
+}
+
+.text-center {
+	text-align: center;
+}
+
+.text-sm {
+	font-size: 12px;
+}
+
+.buttons {
+	margin-top: 30px;
+	display: flex;
+	justify-content: center;
+	gap: 50px;
+}
+
+.short-link-button {
+	background-color: #348BDA;
+	color: white;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 3px;
+	cursor: pointer;
+	font-size: 16px;
+	border: 2px solid white;
+}
+
+.short-link-button:hover {
+	background-color: #007bff;
+}
+
+.input-field {
+	width: 100%;
+	padding: 12px 20px;
+	box-sizing: border-box;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	font-size: 16px;
+}
+
+.label {
+	text-align: center;
+}
+
+main {
+	padding: 2rem;
+}
+
+main form {
+	margin-bottom: 1rem;
+}
+
+main p {
+	margin-bottom: 1rem;
+}
+
+footer {
+	background-color: #333;
+	color: #fff;
+	padding: 1rem;
+	text-align: center;
+}
